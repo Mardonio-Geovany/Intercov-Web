@@ -83,7 +83,7 @@ for (let number = 1; number <= 5; number++) {
 
 function AppWorks() {
   return (
-    <section id="works" className="block works-block">
+    <section id="donde-realizar-los-pagos" className="block works-block">
       <Container fluid>
         <div className="title-holder">
           <h2>Our works</h2>

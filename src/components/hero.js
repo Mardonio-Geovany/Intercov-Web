@@ -4,22 +4,22 @@ var heroData = [
   {
     id: 1,
     image: require('../assets/images/img-hero1.jpg'),
-    title: 'The perfect design for your website',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
+    title: 'Camaras de Seguridad',
+    description: '4 cámaras de alta resolución puedes verlas desde tu celular 📱 desde cualquier parte 🌎graban las 24 hrs🕣. Tienen un grabador con 500 gb de disco duro, las puedes conectar a una tv 📺 con hdmi, tienen visión nocturna  y muy buen alcance.',
     link: 'https://www.google.com'
   },
   {
     id: 2,
     image: require('../assets/images/img-hero2.jpg'),
-    title: 'Start Your Future Financial Plan',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
+    title: 'Planes de Internet',
+    description: 'Ofrecemos internet de alta velocidad para tu hogar o negocio en comunidades rurales. Disfruta de navegación rápida, soporte técnico especializado, y sin interrupciones.',
     link: 'https://www.facebook.com'
   },
   {
     id: 3,
     image: require('../assets/images/img-hero3.jpg'),
     title: 'Enjoy the Difference',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab suscipit dicta nulla. Consequuntur obcaecati officiis, labore doloribus non tempore impedit consequatur ab dolor. Explicabo quam repellendus vero omnis, nisi odio!',
+    description: 'Disfruta de tus series, películas y música favoritas en alta calidad y sin interrupciones. Encuentra lo mejor en YouTube y Google para una experiencia única. ¡Haz tu suscripción hoy y mantente conectado con lo que más te gusta!',
     link: 'https://www.twitter.com'
   }
 ]

@@ -43,7 +43,7 @@ const servicesData = [
 
 function AppServices() {
   return (
-    <section id="services" className="block services-block">
+    <section id="manuales-de-usuario" className="block services-block">
       <Container fluid>
         <div className="title-holder">
           <h2>Servicios</h2>
