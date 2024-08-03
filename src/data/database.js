@@ -14,10 +14,21 @@ const firebaseConfig = {
   measurementId: "G-Y0F0M6ZJ21"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const db = getFirestore(app); // Initialize Firestore
+export const db = getFirestore(app);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Function to get data from the collection "ZonasCobertura"
 async function getZonasCobertura() {
@@ -63,4 +74,3 @@ getContacto().then(contactos => {
 }).catch(err => {
   console.error("Error fetching Contacto data:", err);
 });
-j
