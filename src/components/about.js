@@ -62,7 +62,7 @@ function AppAbout() {
         <Row className="justify-content-center">
           <Col md={6}>
             <div style={{ marginBottom: '20px' }}>
-              <h3>Dirección del servicio</h3>
+              <h3>Consultar Cobertura</h3>
             </div>
             <Form>
               <InputGroup className="mb-3">

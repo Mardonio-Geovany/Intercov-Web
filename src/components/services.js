@@ -2,68 +2,23 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const servicesData = [
-  {
-    id: 1,
-    icon: 'fas fa-clone',
-    title: 'Internet de alta velocidad',
-    description: 'Proporcionamos servicios de internet de alta velocidad a comunidades rurales de la Sierra Gorda, asegurando una conexión estable y rápida para todas tus necesidades de navegación, trabajo y entretenimiento.'
-  },
-  {
-    id: 2,
-    icon: 'fas fa-snowflake',
-    title: 'Soporte técnico',
-    description: 'Nuestro equipo de técnicos e ingenieros altamente calificados está disponible para ofrecer soporte técnico oportuno y resolver cualquier problema que puedas enfrentar, garantizando una experiencia sin interrupciones.'
-  },
-  {
-    id: 3,
-    icon: 'fas fa-plug',
-    title: 'Venta de equipos electronicos',
-    description: 'Ofrecemos una amplia gama de equipos electrónicos, incluyendo routers, computadoras y otros dispositivos tecnológicos, para satisfacer todas tus necesidades de conectividad y tecnología.'
-  },
-  {
-    id: 4,
-    icon: 'fas fa-desktop',
-    title: 'Instalacion de camaras de videovigilancia',
-    description: 'Proveemos servicios de instalación de sistemas de videovigilancia de alta calidad para mejorar la seguridad de tu hogar, negocio o comunidad, con la configuración y soporte adecuados.'
-  },
-  {
-    id: 5,
-    icon: 'fas fa-trophy',
-    title: 'Renta de sillas y mesas',
-    description: 'Ofrecemos renta de sillas y mesas para todo tipo de eventos, proporcionando soluciones prácticas y convenientes para tus celebraciones y reuniones.'
-  },
-  {
-    id: 6,
-    icon: 'fas fa-life-ring',
-    title: 'Venta de tinacos y sisternas',
-    description: 'Disponemos de una variedad de tinacos y cisternas de alta calidad para almacenamiento de agua, esenciales para asegurar un suministro constante en áreas rurales y urbanas.'
-  }
-]
 
 function AppServices() {
   return (
-    <section id="manuales-de-usuario" className="block services-block">
+    <section id="donde-realizar-los-pagos" className="block services-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Servicios</h2>
-          <div className="subtitle">Servicios que brindamos</div>
+          <h2>Información de Pagos</h2>
         </div>
         <Row>
-          {
-            servicesData.map(services => {
-              return (
-                <Col sm={4} className='holder' key={services.id}>
-                  <div className="icon">
-                    <i className={services.icon}></i>
-                  </div>
-                  <h3>{services.title}</h3>
-                  <p>{services.description}</p>
-                </Col>
-              );
-            })
-          }
+          <Col sm={12} className='holder'>
+            <p>Estimado Cliente Intercov,</p>
+            <p>Con el gusto de saludarle y agradecerle su preferencia a través de este medio me permito informarles que los cobros ya no se harán a domicilio. A partir de ahora, puede pagar el servicio por transferencia electrónica a la cuenta BBVA 4152313607659849 a nombre de Pedro de Jesús Santos Covarrubias o en el domicilio Felipe Ángeles N12, Colonia Centro. Anexo fotografía del lugar. De antemano, muchas gracias.</p>
+          </Col>
         </Row>
+        <div className='google-map' style={{ marginTop: '30px' }}>
+        <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7441.747343989319!2d-98.90733841274087!3d21.157425108624622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d6beb77fc7d901%3A0x21588ca11952d80d!2sFelipe%20%C3%81ngeles%2C%2042280%20Chapulhuac%C3%A1n%2C%20Hgo.!5e0!3m2!1ses-419!2smx!4v1721742200034!5m2!1ses-419!2smx" style={{ width: '100%', height: '400px', border: '0' }} allowFullScreen="" loading="lazy"></iframe>
+      </div>
       </Container>
     </section>
   );

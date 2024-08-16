@@ -18,7 +18,7 @@ var heroData = [
   {
     id: 3,
     image: require('../assets/images/img-hero3.jpg'),
-    title: 'Enjoy the Difference',
+    title: 'Variedad de entretenimiento',
     description: 'Disfruta de tus series, películas y música favoritas en alta calidad y sin interrupciones. Encuentra lo mejor en YouTube y Google para una experiencia única. ¡Haz tu suscripción hoy y mantente conectado con lo que más te gusta!',
     link: 'https://www.twitter.com'
   }

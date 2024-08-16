@@ -6,23 +6,23 @@ import ListGroup from 'react-bootstrap/ListGroup';
 const pricingData = [
   {
     id: 1,
-    plan: 'Básica',
+    plan: 'Hogar',
     price: '$350',
-    features: ['Wireframing', 'Visual Design', '5 mbps', 'Free Hosting', 'Soporte y asistencia'],
+    features: ['Internet Ilimitado', '5 mbps', 'Soporte y asistencia'],
     link: 'https://wa.me/527712606369'
   },
   {
     id: 2,
-    plan: 'Normal',
+    plan: 'Plus',
     price: '$500',
-    features: ['Wireframing', 'Visual Design', '8 mbps', 'Free Hosting', 'Soporte y asistencia'],
+    features: ['Internet Ilimitado', '8 mbps', 'Soporte y asistencia'],
     link: 'https://wa.me/527712606369'
   },
   {
     id: 3,
-    plan: 'Premium',
+    plan: 'Empresarial',
     price: '$700',
-    features: ['Wireframing', 'Visual Design', '10 mbps', 'Free Hosting', 'Soporte y asistencia'],
+    features: ['Internet Ilimitado', '10 mbps', 'Soporte y asistencia'],
     link: 'https://wa.me/527712606369'
   }
 ]
