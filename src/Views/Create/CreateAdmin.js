@@ -15,20 +15,20 @@ function CreateAdmin() {
 
     const Navegacion = useNavigate()
 
-    const crearMatricula = () => {
-        const userLength = nombre.length;
-        const mul = userLength * 6969;
-        const iniciales1 = nombre.substring(0, 2)
-        const string1 = "DFH" + iniciales1 + mul
-        const string2 = string1.trim()
-        const mat = string2.substring(0, 8)
-        setNumero(mat) // Asegúrate de que `numero` sea la variable para la matrícula
-    }
+    // const crearMatricula = () => {
+    //     const userLength = nombre.length;
+    //     const mul = userLength * 6969;
+    //     const iniciales1 = nombre.substring(0, 2)
+    //     const string1 = "DFH" + iniciales1 + mul
+    //     const string2 = string1.trim()
+    //     const mat = string2.substring(0, 8)
+    //     setNumero(mat) // Asegúrate de que `numero` sea la variable para la matrícula
+    // }
 
-    const generateId = (input) => {
-        const enc = btoa(input)
-        setComunidad(enc) // Asegúrate de que `comunidad` sea la variable para el ID
-    }
+    // const generateId = (input) => {
+    //     const enc = btoa(input)
+    //     setComunidad(enc) // Asegúrate de que `comunidad` sea la variable para el ID
+    // }
 
     const guardarUsuario = () => {
         const dataAdmin = {
